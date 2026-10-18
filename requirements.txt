@@ -1,0 +1,9 @@
+# Install PyTorch with CUDA first (you already have it), then:
+PySide6>=6.6
+opencv-python>=4.8
+numpy
+requests
+tqdm
+Pillow
+# facenet-pytorch must be installed WITHOUT dependencies so it does not replace your CUDA torch:
+#   pip install facenet-pytorch --no-deps

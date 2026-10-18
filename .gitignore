@@ -1,0 +1,7 @@
+# biometric + attendance data must never be pushed
+data/
+*.pkl
+*.db
+__pycache__/
+*.pyc
+data/
